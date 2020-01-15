@@ -1,7 +1,7 @@
 Summary:	Terminal bandwidth utilization tool
 Name:		bandwhich
 Version:	0.9.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Text tools
 Url:		https://github.com/imsnif/bandwhich
@@ -26,6 +26,8 @@ install -Dm 644 "docs/bandwhich.1" -t "%{buildroot}/%{_mandir}/man1"
 
 %check
 cargo test --release --locked
+%post
+%{_sbindir}/setcap cap_net_raw,cap_net_admin=+ep %{_bindir}/%{name}
 
 %files
 %{_bindir}/%{name}

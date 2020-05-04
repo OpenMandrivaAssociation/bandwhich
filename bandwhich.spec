@@ -1,6 +1,6 @@
 Summary:	Terminal bandwidth utilization tool
 Name:		bandwhich
-Version:	0.13.0
+Version:	0.14.0
 Release:	1
 License:	BSD
 Group:		Text tools

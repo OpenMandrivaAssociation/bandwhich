@@ -1,6 +1,8 @@
+%global	debug_package %nil
+
 Summary:	Terminal bandwidth utilization tool
 Name:		bandwhich
-Version:	0.15.0
+Version:	0.18.1
 Release:	1
 License:	BSD
 Group:		Text tools

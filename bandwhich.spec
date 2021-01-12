@@ -2,7 +2,7 @@
 
 Summary:	Terminal bandwidth utilization tool
 Name:		bandwhich
-Version:	0.18.1
+Version:	0.20.0
 Release:	1
 License:	BSD
 Group:		Text tools

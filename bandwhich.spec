@@ -3,7 +3,7 @@
 Summary:	Terminal bandwidth utilization tool
 Name:		bandwhich
 Version:	0.20.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Text tools
 Url:		https://github.com/imsnif/bandwhich
